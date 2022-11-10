@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/olive"
+    tools:context=".MainActivity2" >
+
+    <EditText
+        android:id="@+id/nameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/mobileid"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mobile" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/addressid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Address" />
+
+    <EditText
+        android:id="@+id/lastid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:onClick="lstdonation"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Last Donation" />
+
+    <EditText
+        android:id="@+id/timeid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:text="When is the next donation" />
+
+    <Button
+        android:id="@+id/savebttn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sv"
+        android:textSize="30dp"
+        android:layout_margin="100dp"
+        android:text="Save" />
+
+</LinearLayout>

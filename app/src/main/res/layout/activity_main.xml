@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dnr"
+    tools:context=".MainActivity" >
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/donorid"
+        android:layout_marginBottom="200dp"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:textSize="30dp"
+        android:background="@color/white"
+        android:onClick="dnr"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:text="Donor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/memberid"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:background="@color/white"
+        android:onClick="mmbr"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:text="Member" />
+
+</LinearLayout>
